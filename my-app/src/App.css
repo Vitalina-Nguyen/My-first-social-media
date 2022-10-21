@@ -8,28 +8,9 @@
   'h h h'
   'n c c';
 }
-.header {
-  background-color: brown;
-  grid-area: h;
-  
-}
 
-.header img{
-  width: 40px;
-}
-
-.navbar {
-  background-color: darkslategray;
-  grid-area: n;
-
-}
-
-.content {
+.app-wrapper-content {
+  min-height: 95vh;
   background-color: darkgray;
   grid-area: c;
-
-}
-
-.back-pick img{
-  width: 400px;
 }
